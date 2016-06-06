@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Czytelnia", "Czytelnia\Czytelnia.csproj", "{BDBBFFFB-9545-4604-9D5B-DF1943C2C790}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KlientCzytelni", "KlientCzytelni\KlientCzytelni.csproj", "{A7EFA938-3929-40F6-8451-F4031FA9D61D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BDBBFFFB-9545-4604-9D5B-DF1943C2C790}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDBBFFFB-9545-4604-9D5B-DF1943C2C790}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDBBFFFB-9545-4604-9D5B-DF1943C2C790}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDBBFFFB-9545-4604-9D5B-DF1943C2C790}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7EFA938-3929-40F6-8451-F4031FA9D61D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7EFA938-3929-40F6-8451-F4031FA9D61D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7EFA938-3929-40F6-8451-F4031FA9D61D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7EFA938-3929-40F6-8451-F4031FA9D61D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

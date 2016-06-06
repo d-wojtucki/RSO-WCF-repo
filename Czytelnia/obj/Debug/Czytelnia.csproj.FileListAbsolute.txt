@@ -1,0 +1,12 @@
+c:\users\kielan\documents\visual studio 2015\Projects\Czytelnia\Czytelnia\bin\Debug\Czytelnia.exe.config
+c:\users\kielan\documents\visual studio 2015\Projects\Czytelnia\Czytelnia\bin\Debug\Czytelnia.exe
+c:\users\kielan\documents\visual studio 2015\Projects\Czytelnia\Czytelnia\bin\Debug\Czytelnia.pdb
+c:\users\kielan\documents\visual studio 2015\Projects\Czytelnia\Czytelnia\obj\Debug\Czytelnia.csprojResolveAssemblyReference.cache
+c:\users\kielan\documents\visual studio 2015\Projects\Czytelnia\Czytelnia\obj\Debug\Czytelnia.exe
+c:\users\kielan\documents\visual studio 2015\Projects\Czytelnia\Czytelnia\obj\Debug\Czytelnia.pdb
+C:\Users\Lenovo\Desktop\Czytelnia\Czytelnia\bin\Debug\Czytelnia.exe.config
+C:\Users\Lenovo\Desktop\Czytelnia\Czytelnia\obj\Debug\Czytelnia.exe
+C:\Users\Lenovo\Desktop\Czytelnia\Czytelnia\obj\Debug\Czytelnia.pdb
+C:\Users\Lenovo\Desktop\Czytelnia\Czytelnia\bin\Debug\Czytelnia.exe
+C:\Users\Lenovo\Desktop\Czytelnia\Czytelnia\bin\Debug\Czytelnia.pdb
+C:\Users\Lenovo\Desktop\Czytelnia\Czytelnia\obj\Debug\Czytelnia.csprojResolveAssemblyReference.cache
