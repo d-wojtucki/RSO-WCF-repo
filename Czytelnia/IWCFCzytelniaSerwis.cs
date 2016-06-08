@@ -13,19 +13,21 @@ namespace Czytelnia
     { 
 
         [OperationContract]
+        [FaultContract(typeof(MyFault))]
         String getInfoAboutBook(int userId, int bookId);
 
         [OperationContract]
+        [FaultContract(typeof(MyFault))]
         List<Book> listOfBorrowedItems(int userId);
 
         [OperationContract]
+        [FaultContract(typeof(MyFault))]
         List<Book> getBorrowedBooks(int userId, int wantedUserId);
 
         [OperationContract]
+        [FaultContract(typeof(MyFault))]
         String borrowBook(int userId, String returnDate, int bookId);
 
-        [OperationContract]
-        void initialize();
     }
 
     [DataContract]
@@ -35,29 +37,54 @@ namespace Czytelnia
         public int bookId;
 
         [DataMember]
-        public BookInfo bookInfo;
+        public String author;
 
         [DataMember]
-        public String returnDate;
-        
-        public Book(int id, BookInfo bookInfo)
+        public String title;
+
+        [DataMember]
+        public Boolean isBorrowed { get; set; }
+
+        [DataMember]
+        public String returnDate { get; set;}
+
+        [DataMember]
+        public int idOfBorrower { get; set; }
+
+        public Book(int id, String author, String title)
         {
-            
+            this.returnDate = "";
+            this.bookId = id;
+            this.author = author;
+            this.title = title;
+            this.isBorrowed = false;
+            this.idOfBorrower = 0;
+        }
+
+        public BookInfo getBookInfo()
+        {
+            BookInfo bookInfo = new BookInfo(author, title, bookId, isBorrowed, returnDate, idOfBorrower);
+            return bookInfo;
         }
 
         [OperationContract]
-        public BookInfo getBookInfo()
+        public String getStringBookInfo()
         {
-            return this.bookInfo;
+            BookInfo bookInfo = getBookInfo();
+
+            return bookInfo.parseBookInfoToString();
         }
     
         [OperationContract]
         public String borrowBook(int userId, String returnDate)
         {
-            if (getBookInfo().isBorrowed) return "Sorry, that book is not available for borrowing.";
+            //Console.WriteLine("Some data");
+            if (isBorrowed) return "Sorry, that book is not available for borrowing.";
             else
             {
-                getBookInfo().setBorrowedStatus(userId, returnDate);
+                this.returnDate = returnDate;
+                this.idOfBorrower = userId;
+                this.isBorrowed = true;
                 return "Borrowed!";
             }
         }
@@ -85,14 +112,14 @@ namespace Czytelnia
         [DataMember]
         public int idOfBorrower;
 
-        public BookInfo(String author, String title, int bookId)
+        public BookInfo(String author, String title, int bookId, Boolean isBorrowed, String returnDate, int idOfBorrower)
         {
             this.bookId = bookId;
             this.author = author;
             this.title = title;
-            this.isBorrowed = false;
-            this.returnDate = "";
-            this.idOfBorrower = 0;
+            this.isBorrowed = isBorrowed;
+            this.returnDate = returnDate;
+            this.idOfBorrower = idOfBorrower;
         }
 
         [OperationContract]
@@ -110,29 +137,18 @@ namespace Czytelnia
             }
             return body + state;
         }
-        [OperationContract]
-        public void setBorrowedStatus(int userId, String date)
-        {
-            this.isBorrowed = true;
-            this.returnDate = date;
-            this.idOfBorrower = userId;
-        }
-        [OperationContract]
-        public Boolean getBorrowedStatus()
-        {
-            return isBorrowed;
-        }
-        [OperationContract]
-        public int getBorrowerId()
-        {
-            if(isBorrowed)
-            {
-                return idOfBorrower;
-            }
-            else
-            {
-                return 0;
-            }
-        }
+    }
+
+    [DataContract]
+    public class MyFault
+    {
+        [DataMember]
+        public String Issue { get; set; }
+
+        [DataMember]
+        public String Details { get; set;}
+
+        [DataMember]
+        public String Message { get; set;}
     }
 }

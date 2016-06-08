@@ -1,16 +1,3 @@
-c:\users\kielan\documents\visual studio 2015\Projects\Czytelnia\KlientCzytelni\bin\Debug\KlientCzytelni.exe
-c:\users\kielan\documents\visual studio 2015\Projects\Czytelnia\KlientCzytelni\bin\Debug\KlientCzytelni.pdb
-c:\users\kielan\documents\visual studio 2015\Projects\Czytelnia\KlientCzytelni\obj\Debug\KlientCzytelni.csprojResolveAssemblyReference.cache
-c:\users\kielan\documents\visual studio 2015\Projects\Czytelnia\KlientCzytelni\obj\Debug\KlientCzytelni.exe
-c:\users\kielan\documents\visual studio 2015\Projects\Czytelnia\KlientCzytelni\obj\Debug\KlientCzytelni.pdb
-c:\users\kielan\documents\visual studio 2015\Projects\Czytelnia\KlientCzytelni\bin\Debug\KlientCzytelni.exe.config
-c:\users\kielan\documents\visual studio 2015\Projects\Czytelnia\KlientCzytelni\bin\Debug\Czytelnia.exe
-c:\users\kielan\documents\visual studio 2015\Projects\Czytelnia\KlientCzytelni\bin\Debug\Czytelnia.pdb
-C:\Users\Lenovo\Desktop\Czytelnia\KlientCzytelni\obj\Debug\KlientCzytelni.csprojResolveAssemblyReference.cache
+C:\Users\Lenovo\Desktop\Czytelnia\KlientCzytelni\bin\Debug\KlientCzytelni.exe.config
 C:\Users\Lenovo\Desktop\Czytelnia\KlientCzytelni\obj\Debug\KlientCzytelni.exe
 C:\Users\Lenovo\Desktop\Czytelnia\KlientCzytelni\obj\Debug\KlientCzytelni.pdb
-C:\Users\Lenovo\Desktop\Czytelnia\KlientCzytelni\bin\Debug\KlientCzytelni.exe.config
-C:\Users\Lenovo\Desktop\Czytelnia\KlientCzytelni\bin\Debug\KlientCzytelni.exe
-C:\Users\Lenovo\Desktop\Czytelnia\KlientCzytelni\bin\Debug\KlientCzytelni.pdb
-C:\Users\Lenovo\Desktop\Czytelnia\KlientCzytelni\bin\Debug\Czytelnia.exe
-C:\Users\Lenovo\Desktop\Czytelnia\KlientCzytelni\bin\Debug\Czytelnia.pdb

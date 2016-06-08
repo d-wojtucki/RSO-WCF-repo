@@ -1,0 +1,8 @@
+C:\Users\Lenovo\Desktop\Czytelnia\KlientCzytelni\bin\Release\KlientCzytelni.exe.config
+C:\Users\Lenovo\Desktop\Czytelnia\KlientCzytelni\bin\Release\KlientCzytelni.exe
+C:\Users\Lenovo\Desktop\Czytelnia\KlientCzytelni\bin\Release\KlientCzytelni.pdb
+C:\Users\Lenovo\Desktop\Czytelnia\KlientCzytelni\bin\Release\Czytelnia.exe
+C:\Users\Lenovo\Desktop\Czytelnia\KlientCzytelni\bin\Release\Czytelnia.pdb
+C:\Users\Lenovo\Desktop\Czytelnia\KlientCzytelni\obj\Release\KlientCzytelni.csprojResolveAssemblyReference.cache
+C:\Users\Lenovo\Desktop\Czytelnia\KlientCzytelni\obj\Release\KlientCzytelni.exe
+C:\Users\Lenovo\Desktop\Czytelnia\KlientCzytelni\obj\Release\KlientCzytelni.pdb
